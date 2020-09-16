@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(//fonts.googleapis.com/css?family=Montserrat:regular,100,200,100italic,200italic,300,300italic,italic,500,500italic,600,600italic,700,700italic,800,900italic,900,800italic|Poppins:regular,100,100italic,200,200italic,300,300italic,italic,500,500italic,600,600italic,700,700italic,800,800italic,900italic,900&subset=latin,cyrillic,cyrillic-ext,latin-ext,vietnamese,devanagari);
+			
+			 .paralRow{
+		   padding-left: 25%; padding-right: 25%;
+	   }
+	   
+	
+	
+	   .footCols{
+		   width: auto !important; padding-left: 25px !important; 
+		   border-right:1px solid #fff; 
+		 
+	   } 
+	   
+	   .padCorrect{
+		   padding-left:10px  !important;
+	   }	
+	 
+	   @media screen and (max-width: 767px) {
+		   
+		   .container-fluid, .moto-cell{
+			  /* padding-left: 20px !important;
+			   padding-right: 20px;*/
+		   }
+		   .paddingRow2{
+			   padding-left: 10px !important;
+			   padding-right: 10px !important;
+		   }
+		   
+		   .paralRow{
+			   padding-left: 10%;
+			   padding-right: 10%;
+		   }
+		   
+		   .headerLogo{width:  100% !important;
+		  text-align: center;
+		   
+		   }
+		   .paddingCorrectTitle{
+			   padding-top: 10px !important;
+			   padding-bottom: 10px !important;
+		   }
+		   .letYouOn{
+			   display: none !important;
+		   }
+		   
+		   .linkHeaderLogo{
+			   text-align: center !important;
+		   }
+		  
+		   #headerRefund{
+				height:200px;   
+		   }
+
+		   .drivingTest{
+			   font-size:50px!important;
+		   }
+
+		   .testSlotText{
+			font-size: 37px!important;
+			line-height: 36px !important;
+		   }
+		   .searchInp{
+			   width:100% !important;
+			   font-size:20px !important;
+			   line-height:35px !important;
+		   }
+		   .searchIma{
+			   display:none !important;
+		   }
+		   .phone_signin{
+			   font-size:18px !important;
+			   color:#ddd !important;
+			   float:right;
+			   line-height:35px;
+			   top:-5px;
+			   position:relative;
+		   }
+		   .enhanced{
+			   width:99% !important;
+			   margin-bottom:10px !important;
+		   }
+
+		   
+		   .titleHeader{
+			   width: 100% !important;
+			   text-align: center !important;
+		   }
+	   }
+	  
+	   @media screen and (max-width: 640px) {
+		    .footCols{
+				width: auto !important;
+		   		margin-left: 0 !important;
+				text-align: center !important;
+				padding-bottom: 10px !important;
+				margin-bottom: 10px;
+				border-bottom: 0px solid #fff !important;
+		   }
+		   .container-fluid, .moto-cell{
+			   /*text-align: center !important;*/
+		   }
+		   
+		   .padCorrect{
+			   text-align: center !important;
+		   }
+	   }
